@@ -1,3 +1,5 @@
+% Test für Github 
+
 %Seed setzen damit man seine Ergebnisse wieder erzeugen kann.
 rng(1);
 
