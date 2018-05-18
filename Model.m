@@ -1,5 +1,3 @@
-% Test für Github 
-
 %Seed setzen damit man seine Ergebnisse wieder erzeugen kann.
 rng(1);
 
@@ -11,9 +9,9 @@ mu = 0.6;
 tao = 0.5;
 %Anzahl der Timesteps
 t=20000;
-%Erzeuge unsere Agenten mit werten zufällig im Intervall [-1,1]
+%Erzeuge unsere Agenten mit werten zufÃ¤llig im Intervall [-1,1]
 x= erzeugex(N);
-%Array für die 2 Agenten die miteinander kommunizieren
+%Array fÃ¼r die 2 Agenten die miteinander kommunizieren
 kom=zeros(2,1);
 
 %Schleife die zu jedem Zeitpunkt immer 2 Agenten miteinander agieren
